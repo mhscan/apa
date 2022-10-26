@@ -17,6 +17,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin:0 8rem ;
 }
 .left_menu {
     margin: 8px;
@@ -44,86 +45,49 @@ p {
 
 
 
-.main_top_text{
+.main_text{
     padding: 4px;
     border: 2px solid #d4d3d3;
 }
     
 
 
-.main_top {
-    margin: 1rem;
-    
+.main {
+    margin:8px 8rem;
     
 }
 
-.main_top_title {
+.main_title {
     color: #081d43;
 }
 
-.main_top_btn {
+.main_btn {
     background-color: #05a000;
     color: #fff;
     border-radius: 3px;
     text-decoration: none;
-    display: block;
-    text-align: center;
-    height: 30px;
+    padding: 1.5rem 2.5rem;
+    
+    
 }
-.main_top_btn:hover {
+.main_btn:hover {
     background-color: #09ff00; 
 }
 
-.main_top_img {
+.main_img {
     
     margin-top: 5rem;
 }
 
-.main_botom {
-    margin-top: 5rem;
-}
-.main_botom_a {
-    flex-basis: 33%;
-    background-color: #e71d36;
-    border-radius: 5px;
-    margin: 2px;
-    padding: 4px;
-}
-.main_botom_b {
-    flex-basis: 34%;
-    background-color: #ff9f1c;
-    border-radius: 5px;
-    margin: 2px;
-    padding: 4px; 
-}
-.main_botom_c {
-    flex-basis: 33%;
-    background-color: #80ed99;
-    border-radius: 5px;
-    margin: 2px;
-    padding: 4px;
-    
-}
 
 
 
-.main_botom_d {
-    flex-basis: 50%;
-    border-radius: 5px;
-    margin: 2px;
-    padding: 4px;
-    background-color: #2ec4b6;
 
 
-}
 
-.main_botom_e{ 
-    flex-basis: 50%;
-    border-radius: 5px;
-    margin: 2px;
-    padding: 4px;
-    background-color: #0b2545;
-}
+
+
+
 
 
 
@@ -144,11 +108,12 @@ p {
 .teacher_section{
     background-color: #2F5BEA;
     color: #fff;
-    margin-top: 5px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 3px;
+    margin:2rem 8rem;
     
 }
 
@@ -174,10 +139,6 @@ p {
     width: 150px;
     border-left: 2px solid #d4d3d3;
 }
-
-
-
-
 
 .companies{
     display: flex;
